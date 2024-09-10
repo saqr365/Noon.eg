@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&amp;family=Merienda:wght@300..900&amp;family=Protest+Guerrilla&amp;display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: 100vh;
+    background-image: url(../images/Screenshotd1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.di {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+.di-i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #feee00;
+    background-image: url(../images/imagesgg44.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 30px;
+    width: 40%;
+    padding: 50px 0;
+    border: white solid 5px;
+    /* backdrop-filter: blur(2px); */
+}
+
+.di-i form {
+    width: 80%;
+    text-align: right;
+}
+
+.di-i h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.di-ii {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.di-ii input {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: "Merienda", cursive;
+    background-color: #343a404a;
+    backdrop-filter: blur(2px);
+    text-align: right;
+}
+
+.di-ii .submit {
+    background: linear-gradient(164deg, #feee00 -42%, #404553 71%);
+    color: white;
+    border-radius: 50px;
+    margin: 10px 0 40px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Lobster", sans-serif;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+}
+
+.di-ii-a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.di-ii-a a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 1.08rem;
+    font-family: "Merienda", cursive;
+}
+
+.di-ii-a span {
+    font-family: "Merienda", cursive;
+}
+
+
+.di-ii-a .a-sup {
+    font-weight: 700;
+    color: #2c8cf4;
+}
+
+@media (max-width:767px){
+    .di-i{
+        width: 90%;
+    }
+
+    .di-i form{
+        width: 90%;
+    }
+}
